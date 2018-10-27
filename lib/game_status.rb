@@ -55,8 +55,9 @@ def draw?(board)
     return false
   elsif won?(board)
     return false
+    binding.pry
   end
-binding.pry
+
 end
 
 def over?(board)
