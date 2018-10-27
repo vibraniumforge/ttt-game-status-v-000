@@ -26,11 +26,13 @@ def won?(board)
       position_2=board[win_index_2]
       position_3=board[win_index_3]
 
-      if position_1==position_2 && position_2==position_3
-        return win_combination
+        if position_1==position_2 && position_2==position_3
+          return win_combination
+        end
       end
     return false
   end
+
 
 def full?(board)
   board.each_with_index do |item, index|
