@@ -60,8 +60,9 @@ def over?(board)
   false
 end
 
-# def winner(board)
-# if
-# end
+def winner(board)
+if won?(board)
+  return win_combination[0]
+end
 
 puts over? ["X", " ", " ", "O", "O", "O", "X", "X", " "]
