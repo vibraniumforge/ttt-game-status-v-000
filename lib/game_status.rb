@@ -40,8 +40,8 @@ end
 
 def full?(board)
   is_full=true
-  board.each do |square|
-    if position_taken?(board, square)==false
+  board.each do |index|
+    if position_taken?(board, index)==false
       is_full=false
     end
   end
