@@ -18,16 +18,16 @@ WIN_COMBINATIONS=[
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
-    win_combination.each do |win_instance|
-      win_index_1=win_instance[0]
-      win_index_2=win_instance[1]
-      win_index_3=win_instance[2]
+    # win_combination.each do |win_instance|
+      win_index_1=win_combination[0]
+      win_index_2=win_combination[1]
+      win_index_3=win_combination[2]
 
       position_1=board[win_index_1]
       position_2=board[win_index_2]
       position_3=board[win_index_3]
 # binding.pry
-puts win_instance
+# puts win_instance
 puts win_combination
       if position_1=="X" && position_2=="X" && position_3=="X"
         return win_combination
