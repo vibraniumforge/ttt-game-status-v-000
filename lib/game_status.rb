@@ -39,8 +39,8 @@ end
 
 def full?(board)
   full=true
-  board.each_with_index do |index|
-    if position_taken?(board, index)==false
+  board.each_with_index do |item, index|
+    if position_taken?(board, item)==false
       full=false
     end
   end
