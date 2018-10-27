@@ -42,7 +42,7 @@ def full?(board)
   full=true
   board.each_with_index do |item, index|
     binding.pry
-    if position_taken?(board, item)==false
+    if position_taken?(board, index)==false
       full=false
     end
 
