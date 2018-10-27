@@ -43,7 +43,6 @@ def full?(board)
     index=0
     index+=index
     if position_taken?(board, index)==false
-      
       is_full=false
     end
   end
@@ -56,6 +55,8 @@ elsif won?(board)==false && full?(board)==false
   return false
 elsif won?(board)==true
   return false
+else 
+  return true
 end
 end
 
@@ -64,7 +65,6 @@ if won?(board)==true || draw?(board)==true || full?(board)==true
   return true
 end
 end
-
 
 # def winner(board)
 # if
