@@ -46,7 +46,6 @@ def full?(board)
       is_full=false
     end
   end
-  return is_true
 end
 
 def draw?(board)
