@@ -37,7 +37,7 @@ binding.pry
 
     end
   end
-# end
+end
 
 def full?(board)
   board.each_with_index do |item, index|
