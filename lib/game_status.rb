@@ -39,6 +39,7 @@ def won?(board)
 end
 
 def full?(board)
+  binding.pry
   full=true
   board.each_with_index do |item, index|
     if position_taken?(board, item)==false
