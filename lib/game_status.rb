@@ -63,4 +63,4 @@ end
 # if
 # end
 
-puts won? ["X", " ", " ", "O", "O", "O", "X", "X", " "]
+puts over? ["X", " ", " ", "O", "O", "O", "X", "X", " "]
