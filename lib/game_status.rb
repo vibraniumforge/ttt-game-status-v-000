@@ -45,8 +45,8 @@ def full?(board)
     if position_taken?(board, index)==false
       full=false
     end
-
   end
+   full
 end
 
 def draw?(board)
