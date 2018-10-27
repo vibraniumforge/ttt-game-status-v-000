@@ -62,7 +62,7 @@ end
 
 def winner(board)
 if won?(board)
-  # binding.pry
+  binding.pry
   return won?(board)[0]
 end
 end
