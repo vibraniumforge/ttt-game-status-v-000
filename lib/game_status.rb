@@ -38,7 +38,7 @@ end
 end
 
 
-def full?
+def full?(board)
   is_full=true
   board.each do |square|
     if position_taken?(square)
