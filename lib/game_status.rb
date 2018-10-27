@@ -39,7 +39,7 @@ end
 
 def full?(board)
   full=true
-  board.each do |index|
+  board.each_with_index do |index|
     counter=0
     counter+=counter
     if position_taken?(board, index)==false
