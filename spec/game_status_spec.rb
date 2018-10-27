@@ -133,7 +133,7 @@ describe "./lib/game_status.rb" do
 
     it 'returns true for a won game when the board is not full' do
       board = ["X", " ", " ", "O", "O", "O", "X", "X", " "]
-binding.pry
+
       expect(over?(board)).to be_truthy
     end
 
