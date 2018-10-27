@@ -26,7 +26,7 @@ def won?(board)
       position_1=board[win_index_1]
       position_2=board[win_index_2]
       position_3=board[win_index_3]
-binding.pry
+# binding.pry
 # puts win_instance
 # puts win_combination
 
