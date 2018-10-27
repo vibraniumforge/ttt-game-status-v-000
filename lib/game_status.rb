@@ -68,3 +68,5 @@ end
 # def winner(board)
 # if
 # end
+
+board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
