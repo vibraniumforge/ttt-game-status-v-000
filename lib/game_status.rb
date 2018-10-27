@@ -45,7 +45,7 @@ def full?(board)
     if position_taken?(board, item)==false
       full=false
     end
-    
+
   end
 end
 
