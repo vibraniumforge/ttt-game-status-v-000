@@ -66,4 +66,4 @@ if won?(board)
 end
 end
 
-puts over? ["X", " ", " ", "O", "O", "O", "X", "X", " "]
+# puts over? ["X", " ", " ", "O", "O", "O", "X", "X", " "]
